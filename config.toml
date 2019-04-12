@@ -1,0 +1,61 @@
+baseURL = "https://localhost:1313"
+title = "Scafold Blueprints"
+theme = "dream-plus"
+#themesDir = "../.."		#Don't use this, only for exampleSite
+paginate = 4
+enableRobotsTXT = true
+disqusShortname = "dream-plus"
+
+#Skip building these files
+#ignoreFiles = ["content/404.md", "content/about.md", "content/cards/\\.*"]
+
+#Syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=table"
+
+#Enable Hugo Emoji Conversion
+enableEmoji=true
+
+[params]
+	#Favicon for site
+	favicon = "/img/defaultFav.ico"
+
+	#Set whether you're hosting "cards" or "post"
+	contentType = "posts"
+	
+	siteStartYear = 2018
+
+	[params.author]
+		name = "Badwolf Scafold Blueprints"
+		description = "Scafold Blueprints repository"
+		avatar = "https://vignette.wikia.nocookie.net/felixthecat/images/3/38/Felix%27s_Magic_Bag.jpg/revision/latest?cb=20170521203511"
+		motto = "Lots of goodies. "
+
+	[params.features]
+		#Enable Twitter Emoji
+		twitterEmoji = true
+		#Enable Table of Contents
+		toc = true
+		#Enable share card
+		shareCard = true
+		#Use custom CSS
+#		customCSS = ["https://cdn.rawgit.com/UtkarshVerma/hugo-dream-plus/ae11561d/exampleSite/static/css/highlight.css"]
+
+	[params.background]
+		colorBG = true
+
+	#Tags settings
+	[params.tags]
+		enabled = true
+
+	#Categories settings
+	[params.categories]
+		enabled = true
+
+[social]
+	email = "badwolf@correia.io"
+	github = "marcelocorreia"
+#	stackoverflow = "9271608/utkarsh-verma"
+#	medium = "UtkarshVerma_"
+#	twitter = "UtkarshVerma_"
