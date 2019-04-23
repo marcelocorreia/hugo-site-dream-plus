@@ -1,6 +1,6 @@
 # Configuration
 PROJECT_HOME := $(shell pwd)
-AWS_PROFILE ?= badwolf-labs
+AWS_PROFILE ?= hammer-labs
 HUGO_HOME := hugo
 
 server:

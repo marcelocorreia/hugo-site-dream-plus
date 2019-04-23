@@ -28,7 +28,7 @@ enableEmoji=true
 	siteStartYear = 2018
 
 	[params.author]
-		name = "Badwolf Scafold Blueprints"
+		name = "Hammer Scafold Blueprints"
 		description = "Scafold Blueprints repository"
 		avatar = "https://vignette.wikia.nocookie.net/felixthecat/images/3/38/Felix%27s_Magic_Bag.jpg/revision/latest?cb=20170521203511"
 		motto = "Lots of goodies. "
@@ -55,7 +55,7 @@ enableEmoji=true
 		enabled = true
 
 [social]
-	email = "badwolf@correia.io"
+	email = "hammer@correia.io"
 	github = "marcelocorreia"
 #	stackoverflow = "9271608/utkarsh-verma"
 #	medium = "UtkarshVerma_"
